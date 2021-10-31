@@ -49,7 +49,7 @@
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
   "url": "https://github.com/SynnFallow/foundry-urban-jungle",
-  "manifest": "https://github.com/SynnFallow/foundry-urban-jungle/releases/download/foundry/system.json",
-  "download": "https://github.com/SynnFallow/foundry-urban-jungle/archive/refs/tags/foundry.zip",
+  "manifest": "https://github.com/SynnFallow/foundry-urban-jungle/releases/download/0.2/system.json",
+  "download": "https://github.com/SynnFallow/foundry-urban-jungle/archive/refs/tags/0.2.zip",
   "license": "LICENSE.txt"
 }
