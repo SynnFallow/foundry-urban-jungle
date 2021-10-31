@@ -48,7 +48,7 @@
   "gridUnits": "m",
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
-  "url": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/",
+  "url": "https://github.com/SynnFallow/foundry-urban-jungle",
   "manifest": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/raw/master/system.json",
   "download": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/archive/v0.3.6/urbanjungle-foundryvtt-system-v0.3.6.zip",
   "license": "LICENSE.txt"
