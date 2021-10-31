@@ -49,7 +49,7 @@
   "primaryTokenAttribute": "null",
   "secondaryTokenAttribute": "null",
   "url": "https://github.com/SynnFallow/foundry-urban-jungle",
-  "manifest": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/raw/master/system.json",
-  "download": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/archive/v0.3.6/urbanjungle-foundryvtt-system-v0.3.6.zip",
+  "manifest": "https://github.com/SynnFallow/foundry-urban-jungle/blob/main/system.json",
+  "download": "https://github.com/SynnFallow/foundry-urban-jungle/archive/refs/tags/foundry.zip",
   "license": "LICENSE.txt"
 }
