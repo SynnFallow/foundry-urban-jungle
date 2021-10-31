@@ -1,0 +1,39 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+            <div class="resource flexrow flex-group-center flex-tight">
+                <label for="data.careerName" class="resource-label">Career Name:</label>
+                <input type="text" name="data.careerName" value="{{data.careerName}}" data-dtype="String" />
+                <label for="data.dice" class="resource-label">Dice:</label>
+                <input type="text" name="data.dice" value="{{data.dice}}" data-dtype="String" />
+            </div>
+        </div>
+    </header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">Attributes</a>
+    </nav>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+
+        {{!-- Attributes Tab --}}
+        <div class="tab attributes" data-group="primary" data-tab="description">
+            <div class="flexcol">
+                <div class="resource flex-group-center">
+                    <label class="resource-label">Tags:</label>
+                    <input type="text" name="data.giftTags" value="{{data.giftTags}}" data-dtype="String" />
+                </div>
+                <div class="resource flexrow flex-group-center">
+                    <label class="normal-label">Career Skills:</label>
+                    <input type="text" name="data.careerSkill1" value="{{data.careerSkill1}}" data-dtype="String" />
+                    <input type="text" name="data.careerSkill2" value="{{data.careerSkill2}}" data-dtype="String" />
+                    <input type="text" name="data.careerSkill3" value="{{data.careerSkill3}}" data-dtype="String" />
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

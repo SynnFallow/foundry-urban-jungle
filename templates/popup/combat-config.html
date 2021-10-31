@@ -1,0 +1,35 @@
+<form autocomplete="off" onsubmit="event.preventDefault();">
+    <div class="form-group">
+        <label>{{localize 'ironclaw2e.combat.sideBasedInitiative'}}</label>
+        <input type="checkbox" name="sideBased" {{checked settings.sideBased}} data-dtype="Boolean" />
+        <p class="notes">{{localize 'ironclaw2e.combat.sideBasedInitiativeHint'}}</p>
+    </div>
+
+    <div class="form-group">
+        <label>{{localize 'ironclaw2e.combat.sidesUsed'}}</label>
+        <select name="initType">
+            {{#select settings.initType}}
+            {{#each initOptions}}
+            <option value="{{this.value}}">{{localize this.key}}</option>
+            {{/each}}
+            {{/select}}
+        </select>
+        <p class="notes">{{localize 'ironclaw2e.combat.sidesUsedHint'}}</p>
+    </div>
+
+    <div class="form-group">
+        <label>{{localize 'ironclaw2e.combat.manualTN'}}</label>
+        <input type="text" name="manualTN" value="{{settings.manualTN}}" data-dtype="Number" />
+        <p class="notes">{{localize 'ironclaw2e.combat.manualTNHint'}}</p>
+    </div>
+
+    <div class="form-group">
+        <label>{{localize 'COMBAT.SkipDefeated'}}</label>
+        <input type="checkbox" name="skipDefeated" {{checked settings.skipDefeated}} data-dtype="Boolean" />
+        <p class="notes">{{localize 'COMBAT.SkipDefeatedHint'}}</p>
+    </div>
+
+    <button type="submit" name="submit">
+        <i class="fas fa-save"></i> {{localize 'COMBAT.SettingsSave'}}
+    </button>
+</form>

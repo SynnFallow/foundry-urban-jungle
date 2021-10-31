@@ -1,0 +1,579 @@
+{
+  "system": "urbanjungle",
+  "map": [
+    {
+      "id": "focused",
+      "name": "Focused",
+      "icon": "icons/svg/upgrade.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.WGljaB1SMqPtXDwC]{Focused}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "guarding",
+      "name": "Guarding",
+      "icon": "icons/svg/shield.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.ZzpRbp4XIFV5y8rW]{Guarding}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "reeling",
+      "name": "Reeling",
+      "icon": "icons/svg/lightning.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.2RqmHH9RbzJKjdKA]{Reeling}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "hurt",
+      "name": "Hurt",
+      "icon": "icons/svg/acid.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.7buKwZrZVy8OwPhx]{Hurt}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "afraid",
+      "name": "Afraid",
+      "icon": "systems/urbanjungle/icons/status/afraid.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.krkg0YwKTNyD8BPM]{Afraid}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "injured",
+      "name": "Injured",
+      "icon": "icons/svg/blood.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.XZ1nn0BJoBGtHSYt]{Injured}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "dying",
+      "name": "Dying",
+      "icon": "systems/urbanjungle/icons/status/dying.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.1Jg9RzQ24bpHnh7A]{Dying}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": true
+      }
+    },
+    {
+      "id": "dead",
+      "name": "Dead",
+      "icon": "icons/svg/skull.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.JsnatC5y42DGbPP3]{Dead}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "markDefeated": true
+      }
+    },
+    {
+      "id": "overkilled",
+      "name": "Overkilled",
+      "icon": "systems/urbanjungle/icons/status/overkilled.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.iL6ssGkLXwHPqRLh]{Overkilled}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "markDefeated": true
+      }
+    },
+    {
+      "id": "asleep",
+      "name": "Asleep",
+      "icon": "icons/svg/sleep.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.fy5EtGmfIZbpbqd1]{Asleep}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": true
+      }
+    },
+    {
+      "id": "unconscious",
+      "name": "Unconscious",
+      "icon": "icons/svg/unconscious.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.y17nrzjqcBNdnyVo]{Unconscious}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": true,
+        "removeOthers": false,
+        "markDefeated": true
+      }
+    },
+    {
+      "id": "burdened",
+      "name": "Burdened",
+      "icon": "systems/urbanjungle/icons/status/burdened.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.pJTP7nRDfLCXTAzO]{Burdened}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "over-burdened",
+      "name": "Over-Burdened",
+      "icon": "systems/urbanjungle/icons/status/overburdened.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.Ms6nfCALR2RxiwFc]{Over-Burdened}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "cannot-move",
+      "name": "Cannot Move",
+      "icon": "systems/urbanjungle/icons/status/cantmove.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.8X3gh1U1g5NQxwbA]{Cannot Move}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "fatigued",
+      "name": "Fatigued",
+      "icon": "icons/svg/degen.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.O8Cf7H1AoijQfdmL]{Fatigued}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "sick",
+      "name": "Sick",
+      "icon": "icons/svg/poison.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.HFHtUwuSoZ6wQutn]{Sick}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "confused",
+      "name": "Confused",
+      "icon": "icons/svg/daze.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.E156mwoPTBUaagBB]{Confused}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "terrified",
+      "name": "Terrified",
+      "icon": "systems/urbanjungle/icons/status/terrified.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.soFkqUQFGaY3Q8IM]{Terrified}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "enraged",
+      "name": "Enraged",
+      "icon": "icons/svg/explosion.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.2TtNJmDXp79MvLk9]{Enraged}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "knockdown",
+      "name": "Knockdown",
+      "icon": "icons/svg/falling.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.Rs6XYXEEYOIbUVZo]{Knockdown}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "icon": "icons/svg/hazard.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.dtpk97W1sWJY68zF]{Berserk}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "blinded",
+      "name": "Blinded",
+      "icon": "icons/svg/blind.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.XW0PM0eiepT2fqcD]{Blinded}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "silenced",
+      "name": "Silenced",
+      "icon": "icons/svg/silenced.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.8WNaDcPi0IJbaJAk]{Silenced}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "full-tilt",
+      "name": "Full Tilt",
+      "icon": "icons/svg/up.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.C9275OGG3YcLz1cb]{Full Tilt}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "slowed",
+      "name": "Slowed",
+      "icon": "icons/svg/down.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.nbQkEI0uPTHdQtPk]{Slowed}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "immobilized",
+      "name": "Immobilized",
+      "icon": "icons/svg/mountain.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.lveZKbwsOHC8wg25]{Immobilized}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "half-buried",
+      "name": "Half-Buried",
+      "icon": "icons/svg/ruins.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.2oqPSchTRfNviHhm]{Half-Buried}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "on-fire",
+      "name": "On Fire",
+      "icon": "icons/svg/fire.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.9SQeyWG4sy1vaXO4]{On Fire}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "mesmerized",
+      "name": "Mesmerized",
+      "icon": "icons/svg/ice-aura.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.EMsCXyLEv1SEXIT4]{Mesmerized}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "marionette",
+      "name": "Marionette",
+      "icon": "icons/svg/paralysis.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.QJyebhpwRNfvkFEi]{Marionette}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "controlled",
+      "name": "Controlled",
+      "icon": "icons/svg/statue.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.rjHftAZgQQTg41ag]{Controlled}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "all-fours",
+      "name": "All Fours",
+      "icon": "icons/svg/pawprint.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.MItXHxvNgfSCFenc]{All Fours}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "flying",
+      "name": "Flying",
+      "icon": "icons/svg/wing.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.zghrfBq4iiKosTKu]{Flying}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "grappled",
+      "name": "Grappled",
+      "icon": "icons/svg/net.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.lQRKvbZYOo7izSdT]{Grappled}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "hiding",
+      "name": "Hiding",
+      "icon": "icons/svg/mystery-man.svg",
+      "referenceId": "@Compendium[urbanjungle.statuseffects.5J32lLlKCtZhFbuR]{Hiding}",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-a",
+      "name": "Misc-A",
+      "icon": "icons/svg/eye.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-b",
+      "name": "Misc-B",
+      "icon": "icons/svg/clockwork.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-c",
+      "name": "Misc-C",
+      "icon": "icons/svg/castle.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-d",
+      "name": "Misc-D",
+      "icon": "icons/svg/book.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-e",
+      "name": "Misc-E",
+      "icon": "icons/svg/coins.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    },
+    {
+      "id": "misc-f",
+      "name": "Misc-F",
+      "icon": "icons/svg/sound.svg",
+      "referenceId": "",
+      "applyTrigger": "",
+      "removeTrigger": "",
+      "activeEffect": null,
+      "options": {
+        "overlay": false,
+        "removeOthers": false,
+        "markDefeated": false
+      }
+    }
+  ]
+}

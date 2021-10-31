@@ -1,0 +1,210 @@
+{
+  "Actor": {
+    "types": [ "character", "mook", "beast", "marker" ],
+    "templates": {
+      "baseTraits": {
+        "traits": {
+          "body": {
+            "dice": "d4"
+          },
+          "speed": {
+            "dice": "d4"
+          },
+          "mind": {
+            "dice": "d4"
+          },
+          "will": {
+            "dice": "d4"
+          },
+          "species": {
+            "dice": "d4",
+            "name": "",
+            "speciesSkill1": "",
+            "speciesSkill2": "",
+            "speciesSkill3": ""
+          },
+          "career": {
+            "dice": "d4",
+            "name": "",
+            "careerSkill1": "",
+            "careerSkill2": "",
+            "careerSkill3": ""
+          }
+        }
+      },
+      "baseSkills": {
+        "skills": {
+          "academics": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "athletics": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "craft": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "deceit": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "endurance": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "evasion": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "fighting": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "negotiation": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "observation": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "presence": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "questioning": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "shooting": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "tactics": {
+            "marks": 0,
+            "favoredUse": ""
+          },
+          "transport": {
+            "marks": 0,
+            "favoredUse": ""
+          }
+        }
+      },
+      "baseAttributes": {
+        "attributes": {
+          "height": "",
+          "weight": "",
+          "age": "",
+          "gender": "",
+          "habitat": "",
+          "diet": "",
+        }
+      },
+      "baseMoney": {
+        "coinage": {
+          "dollar": {
+            "plural": "dollars",
+            "amount": 0,
+            "weight": 0.1,
+            "value": "1",
+            "sign": 415
+          }
+        }
+      }
+    },
+    "character": {
+      "templates": [ "baseTraits", "baseSkills", "baseAttributes", "baseMoney" ],
+      "biography": "",
+	  "motto": "",
+	  "goals": {
+		  "goal1": "",
+		  "goal2": "",
+		  "goal3": ""
+	  },
+      "experience": 0
+    },
+    "mook": {
+      "templates": [ "baseTraits", "baseSkills", "baseAttributes", "baseMoney" ],
+      "description": ""
+    },
+    "beast": {
+      "templates": [ "baseTraits", "baseAttributes" ],
+      "description": ""
+    },
+    "marker": {
+      "description": ""
+    }
+  },
+  "Item": {
+    "types": [ "gift", "weapon", "armor", "shield", "illumination", "extraCareer", "item" ],
+    "templates": {
+      "base": {
+        "description": "",
+        "showInBattleStats": false
+      },
+      "physical": {
+        "quantity": 1,
+        "weight": 0.0
+      }
+    },
+    "gift": {
+      "templates": [ "base" ],
+      "giftTags": "",
+      "refresh": "",
+      "exhausted": false,
+      "exhaustWhenUsed": true,
+      "useDice": "",
+      "defaultTN": 3
+    },
+    "extraCareer": {
+      "templates": [ ],
+      "giftTags": "Trait",
+      "dice": "d4",
+      "careerName": "",
+      "careerSkill1": "",
+      "careerSkill2": "",
+      "careerSkill3": ""
+    },
+    "weapon": {
+      "templates": [ "base", "physical" ],
+      "effect": "",
+	  "hasResist": false,
+	  "specialResist": "",
+      "descriptors": "",
+      "equip": "Good hand",
+      "range": "Close",
+      "attackDice": "",
+      "defenseDice": "",
+      "counterDice": "",
+      "useSpark": false,
+      "sparkDie": ""
+    },
+    "armor": {
+      "templates": [ "base", "physical" ],
+      "armorDice": "",
+      "worn": true
+    },
+    "shield": {
+      "templates": [ "base", "physical" ],
+      "coverDie": "d4",
+      "held": true
+    },
+    "illumination": {
+      "templates": [ "base", "physical" ],
+      "lighted": false,
+      "dimLight": 0,
+      "brightLight": 0,
+      "lightAngle": 360,
+      "lightColor": "#ffffff",
+      "lightAlpha": 0.3,
+      "lightAnimationType": "",
+      "lightAnimationSpeed": 5,
+      "lightAnimationIntensity": 5
+    },
+    "item": {
+      "templates": [ "base", "physical" ]
+    }
+  }
+}

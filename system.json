@@ -1,0 +1,55 @@
+{
+  "name": "urbanjungle",
+  "title": "Urban Jungle",
+  "description": "Ironclaw Second Edition edited system for FoundryVTT.",
+  "version": "0.3.6",
+  "minimumCoreVersion": "0.8.7",
+  "compatibleCoreVersion": "0.8.9",
+  "templateVersion": 1,
+  "author": "Hertzila",
+  "esmodules": [ "module/urbanjungle.js" ],
+  "styles": [ "css/urbanjungle.css" ],
+  "scripts": [],
+  "packs": [
+    {
+      "name": "customrolls",
+      "label": "Customizable Rolls",
+      "system": "urbanjungle",
+      "module": "urbanjungle",
+      "path": "packs/customizable-rolls.db",
+      "entity": "Macro"
+    },
+    {
+      "name": "systeminfo",
+      "label": "System Info",
+      "system": "urbanjungle",
+      "module": "urbanjungle",
+      "path": "packs/system-info.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "statuseffects",
+      "label": "Status Effects",
+      "system": "urbanjungle",
+      "module": "urbanjungle",
+      "path": "packs/status-effects.db",
+      "entity": "JournalEntry"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "dependencies": [],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "null",
+  "secondaryTokenAttribute": "null",
+  "url": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/",
+  "manifest": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/raw/master/system.json",
+  "download": "https://gitlab.com/Hertzila/urbanjungle-foundryvtt-system/-/archive/v0.3.6/urbanjungle-foundryvtt-system-v0.3.6.zip",
+  "license": "LICENSE.txt"
+}
